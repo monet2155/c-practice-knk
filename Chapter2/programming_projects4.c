@@ -10,6 +10,7 @@ int main(void)
     printf("Enter an amount: ");
     scanf("%f", &amount);
 
+    // This line can be replaced:  printf("With tax added: $%.2f\n", original_amount * 1.05f);
     printf("With tax added: %.2f", amount + (amount * TAX_RATE));
 
     return 0;
