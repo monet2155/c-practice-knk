@@ -36,4 +36,6 @@ int main(void)
     printf("%d ", i++ - j++ + --k);
     printf("%d %d %d", i, j, k);
     // '3 4 5 4'
+
+    return 0;
 }

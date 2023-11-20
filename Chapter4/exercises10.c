@@ -32,4 +32,6 @@ int main(void)
     j = (i = 6) + (j = 3);
     printf("%d %d", i, j);
     // '6 9'
+
+    return 0;
 }
