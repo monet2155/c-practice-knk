@@ -9,7 +9,6 @@
 int main(void)
 {
     int score;
-    int splitScore;
 
     printf("Enter numerical grade: ");
     scanf("%d", &score);
@@ -21,8 +20,7 @@ int main(void)
     }
 
     printf("Letter grade: ");
-    splitScore = score / 10;
-    switch (splitScore)
+    switch (score / 10)
     {
     case 10:
         /* intentional fallthrough */
