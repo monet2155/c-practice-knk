@@ -9,12 +9,12 @@ int *top_pointer = &contents[0];
 
 void make_empty(void)
 {
-    top_pointer = 0;
+    top_pointer = &contents[0];
 }
 
 bool is_empty(void)
 {
-    return top_pointer == 0;
+    return top_pointer == &contents[0];
 }
 
 bool is_full(void)
